@@ -28,6 +28,27 @@ class ViewController: UIViewController {
 
         
     }
+    @IBOutlet weak var 文本框: UITextField!
+    @IBAction func 数字1(sender: AnyObject) {
+    }
+    @IBAction func 数字2(sender: AnyObject) {
+    }
+    @IBAction func 数字3(sender: AnyObject) {
+    }
+    @IBAction func 数字4(sender: AnyObject) {
+    }
+    @IBAction func 数字5(sender: AnyObject) {
+    }
+    @IBAction func 数字6(sender: AnyObject) {
+    }
+    @IBAction func 数字7(sender: AnyObject) {
+    }
+    @IBAction func 数字8(sender: AnyObject) {
+    }
+    @IBAction func 数字9(sender: AnyObject) {
+    }
+    @IBAction func 数字0(sender: AnyObject) {
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.

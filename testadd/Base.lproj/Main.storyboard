@@ -54,54 +54,71 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="roX-Gq-dJJ">
-                                <rect key="frame" x="38" y="215" width="30" height="30"/>
+                                <rect key="frame" x="42" y="217" width="23" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="1"/>
+                                <connections>
+                                    <action selector="add:" destination="BYZ-38-t0r" eventType="touchUpInside" id="SXG-zT-R0X"/>
+                                    <action selector="数字1:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5yw-Ir-sga"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="tQt-Ka-Kcr">
                                 <rect key="frame" x="118" y="215" width="30" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="2"/>
+                                <connections>
+                                    <action selector="数字1:" destination="BYZ-38-t0r" eventType="touchUpInside" id="H0h-cY-3Vf"/>
+                                    <action selector="数字2:" destination="BYZ-38-t0r" eventType="touchUpInside" id="N7O-BA-fxn"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="TD6-LX-RL5">
                                 <rect key="frame" x="188" y="215" width="30" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="3"/>
+                                <connections>
+                                    <action selector="数字2:" destination="BYZ-38-t0r" eventType="touchUpInside" id="oi5-OU-s6J"/>
+                                    <action selector="数字3:" destination="BYZ-38-t0r" eventType="touchUpInside" id="oQw-Wb-tG3"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="fkY-1G-dJe">
                                 <rect key="frame" x="38" y="255" width="30" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="4"/>
+                                <connections>
+                                    <action selector="数字4:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mOH-y3-sp1"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="A6e-S5-vS1">
                                 <rect key="frame" x="118" y="255" width="30" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="5"/>
+                                <connections>
+                                    <action selector="数字5:" destination="BYZ-38-t0r" eventType="touchUpInside" id="oPT-o6-dqZ"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="JeO-uh-Xcr">
                                 <rect key="frame" x="188" y="255" width="30" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="6"/>
+                                <connections>
+                                    <action selector="数字6:" destination="BYZ-38-t0r" eventType="touchUpInside" id="C7d-Bh-1bK"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="enA-dU-woG">
                                 <rect key="frame" x="38" y="302" width="30" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="7 "/>
+                                <connections>
+                                    <action selector="数字7:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4aa-Me-8rP"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="IOp-CM-ZV0">
                                 <rect key="frame" x="118" y="302" width="30" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="8"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="rig-0L-7L0">
-                                <rect key="frame" x="188" y="302" width="30" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="9"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="0Ye-Ym-PAn">
-                                <rect key="frame" x="38" y="346" width="30" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="0"/>
+                                <connections>
+                                    <action selector="数字8:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ciX-5j-Des"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="dEs-4f-0y8">
                                 <rect key="frame" x="188" y="346" width="30" height="30"/>
@@ -139,6 +156,23 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="+"/>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="0Ye-Ym-PAn">
+                                <rect key="frame" x="38" y="346" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="0"/>
+                                <connections>
+                                    <action selector="数字0:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hak-A3-SEo"/>
+                                    <action selector="数字4:" destination="BYZ-38-t0r" eventType="touchUpInside" id="u8C-84-zaE"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="rig-0L-7L0">
+                                <rect key="frame" x="188" y="302" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="9"/>
+                                <connections>
+                                    <action selector="数字9:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gc5-hV-JEA"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
@@ -146,6 +180,8 @@
                         <outlet property="x" destination="5a1-s8-G28" id="QeJ-Ya-ERB"/>
                         <outlet property="y" destination="3Po-hW-CxT" id="W7S-rv-ZdP"/>
                         <outlet property="z" destination="4cO-Yz-Z2G" id="E7S-0D-mi8"/>
+                        <outlet property="数字8" destination="IOp-CM-ZV0" id="4DD-LJ-h37"/>
+                        <outlet property="文本框" destination="9D3-SZ-ZkP" id="Cfc-eM-VfS"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
