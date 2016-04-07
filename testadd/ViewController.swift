@@ -20,36 +20,82 @@ class ViewController: UIViewController {
 
     }
     @IBAction func 数字2(sender: AnyObject) {
+        点按("2")
     }
     @IBAction func 数字3(sender: AnyObject) {
+        点按("3")
     }
     @IBAction func 数字4(sender: AnyObject) {
+        点按("4")
     }
     @IBAction func 数字5(sender: AnyObject) {
+        点按("5")
     }
     @IBAction func 数字6(sender: AnyObject) {
+        点按("6")
     }
     @IBAction func 数字7(sender: AnyObject) {
+        点按("7")
     }
     @IBAction func 数字8(sender: AnyObject) {
+        点按("8")
     }
     @IBAction func 数字9(sender: AnyObject) {
+        点按("9")
     }
     @IBAction func 数字0(sender: AnyObject) {
+        点按("0")
     }
     @IBAction func 算法加(sender: AnyObject) {
+        计算器.设置当前算法(.加法)
+        求值()
+
+        
     }
     @IBAction func 算法减(sender: AnyObject) {
+        计算器.设置当前算法(.减法)
+        求值()
     }
    
     @IBAction func 算法乘(sender: AnyObject) {
+        计算器.设置当前算法(.乘法)
+        求值()
+
     }
     @IBAction func 算法除(sender: AnyObject) {
+        计算器.设置当前算法(.除法)
+        求值()
+
     }
     @IBAction func 运算结果(sender: AnyObject) {
+          求值()
     }
   
     @IBAction func 数字点(sender: AnyObject) {
+        点按(".")
+    }
+    @IBAction func 算法平方(sender: AnyObject) {
+        计算器.设置当前算法(.平方)
+        求值()
+
+    }
+    @IBAction func 算法指数幂(sender: AnyObject) {
+        计算器.设置当前算法(.指数幂)
+        求值()
+
+    }
+    @IBAction func 重置当前(sender: AnyObject) {
+        显示缓存 = ""
+        self.屏幕.text = "当前输入已撤销👉 0.0"
+    }
+    
+    @IBAction func 重置全部(sender: AnyObject) {
+        显示缓存 = ""
+        缓存 = 0.0
+        缓存2 = nil
+        计算器.设置当前算法(.未选择)
+        self.屏幕.text = ""
+
     }
     func 点按(数字:String) {
         显示缓存 += 数字
