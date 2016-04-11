@@ -18,7 +18,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="1"/>
                                 <connections>
-                                    <action selector="数字1:" destination="BYZ-38-t0r" eventType="touchUpInside" id="G2x-9N-zjw"/>
+                                    <action selector="number1:" destination="BYZ-38-t0r" eventType="touchUpInside" id="S79-1R-AXG"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="tQt-Ka-Kcr">
@@ -26,7 +26,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="2"/>
                                 <connections>
-                                    <action selector="数字2:" destination="BYZ-38-t0r" eventType="touchUpInside" id="y0k-AA-52x"/>
+                                    <action selector="number2:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gEJ-Gg-3s6"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="fkY-1G-dJe">
@@ -34,7 +34,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="4"/>
                                 <connections>
-                                    <action selector="数字4:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jVU-Th-Ddo"/>
+                                    <action selector="number4:" destination="BYZ-38-t0r" eventType="touchUpInside" id="iMj-Wa-rsC"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="A6e-S5-vS1">
@@ -42,7 +42,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="5"/>
                                 <connections>
-                                    <action selector="数字5:" destination="BYZ-38-t0r" eventType="touchUpInside" id="M79-OF-gSw"/>
+                                    <action selector="number5:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qN9-qS-Y40"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="JeO-uh-Xcr">
@@ -50,7 +50,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="6"/>
                                 <connections>
-                                    <action selector="数字6:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fNZ-ga-wo1"/>
+                                    <action selector="number6:" destination="BYZ-38-t0r" eventType="touchUpInside" id="BeG-J2-Vi8"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="enA-dU-woG">
@@ -58,7 +58,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="7 "/>
                                 <connections>
-                                    <action selector="数字7:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4rG-iY-iUC"/>
+                                    <action selector="number7:" destination="BYZ-38-t0r" eventType="touchUpInside" id="YKa-O6-Uv2"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="IOp-CM-ZV0">
@@ -66,7 +66,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="8"/>
                                 <connections>
-                                    <action selector="数字8:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Qlv-Mm-ay0"/>
+                                    <action selector="number8:" destination="BYZ-38-t0r" eventType="touchUpInside" id="P1r-3a-DQY"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="dEs-4f-0y8">
@@ -74,7 +74,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="-"/>
                                 <connections>
-                                    <action selector="算法减:" destination="BYZ-38-t0r" eventType="touchUpInside" id="sqV-1w-Njd"/>
+                                    <action selector="algorithmjian:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6jA-1Z-LFu"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="d3l-9j-YdH">
@@ -82,7 +82,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="*"/>
                                 <connections>
-                                    <action selector="算法乘:" destination="BYZ-38-t0r" eventType="touchUpInside" id="86P-tQ-WhN"/>
+                                    <action selector="algorithmcheng:" destination="BYZ-38-t0r" eventType="touchUpInside" id="h68-eM-5xY"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="dYT-lQ-biU">
@@ -90,7 +90,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="/"/>
                                 <connections>
-                                    <action selector="算法除:" destination="BYZ-38-t0r" eventType="touchUpInside" id="yIl-UR-S6v"/>
+                                    <action selector="algorithmchu:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7UB-hN-Y59"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="x9G-M6-GyL">
@@ -98,7 +98,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="="/>
                                 <connections>
-                                    <action selector="运算结果:" destination="BYZ-38-t0r" eventType="touchUpInside" id="JZv-e1-hbh"/>
+                                    <action selector="yunsuanresult:" destination="BYZ-38-t0r" eventType="touchUpInside" id="N3n-dl-kcD"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="UWB-VZ-H7k">
@@ -106,7 +106,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="."/>
                                 <connections>
-                                    <action selector="数字点:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Lt6-8I-JpZ"/>
+                                    <action selector="point:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ZhO-dF-SPh"/>
                                 </connections>
                             </button>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" id="9D3-SZ-ZkP">
@@ -120,7 +120,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="+"/>
                                 <connections>
-                                    <action selector="算法加:" destination="BYZ-38-t0r" eventType="touchUpInside" id="CQ3-Z6-2fM"/>
+                                    <action selector="algorithmjia:" destination="BYZ-38-t0r" eventType="touchUpInside" id="IGW-bT-eTj"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="0Ye-Ym-PAn">
@@ -128,7 +128,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="0"/>
                                 <connections>
-                                    <action selector="数字0:" destination="BYZ-38-t0r" eventType="touchUpInside" id="i1U-QV-uY7"/>
+                                    <action selector="number0:" destination="BYZ-38-t0r" eventType="touchUpInside" id="eDD-sS-SPy"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="qpL-n6-Uc7">
@@ -136,7 +136,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="x^2"/>
                                 <connections>
-                                    <action selector="算法平方:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1sC-XK-Hrq"/>
+                                    <action selector="algorithmpingfang:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gdK-4D-CuV"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="TD6-LX-RL5">
@@ -144,7 +144,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="3"/>
                                 <connections>
-                                    <action selector="数字3:" destination="BYZ-38-t0r" eventType="touchUpInside" id="eJy-8W-4UH"/>
+                                    <action selector="number3:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pf5-Bx-LFw"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="rig-0L-7L0">
@@ -152,7 +152,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="9"/>
                                 <connections>
-                                    <action selector="数字9:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aYA-Zv-nAi"/>
+                                    <action selector="number9:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dwc-X8-9uS"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="XQU-yE-rNh">
@@ -160,8 +160,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="C"/>
                                 <connections>
-                                    <action selector="数字0:" destination="BYZ-38-t0r" eventType="touchUpInside" id="iB6-tz-Xl8"/>
-                                    <action selector="重置当前:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fJu-0k-O3a"/>
+                                    <action selector="Resetnow:" destination="BYZ-38-t0r" eventType="touchUpInside" id="TLd-rp-dRB"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Hh6-Th-pu9">
@@ -169,8 +168,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="AC"/>
                                 <connections>
-                                    <action selector="数字0:" destination="BYZ-38-t0r" eventType="touchUpInside" id="olI-FI-KyL"/>
-                                    <action selector="重置全部:" destination="BYZ-38-t0r" eventType="touchUpInside" id="oXG-Tu-FZe"/>
+                                    <action selector="Resetall:" destination="BYZ-38-t0r" eventType="touchUpInside" id="RFc-sm-is0"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="fv4-g9-Her">
@@ -178,14 +176,14 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="x^y"/>
                                 <connections>
-                                    <action selector="算法指数幂:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2NQ-EN-D3b"/>
+                                    <action selector="algorithmzhishumi:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gtZ-MA-H2T"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <connections>
-                        <outlet property="屏幕" destination="9D3-SZ-ZkP" id="GmH-GS-x5h"/>
+                        <outlet property="screen" destination="9D3-SZ-ZkP" id="SJv-6e-Z5k"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
